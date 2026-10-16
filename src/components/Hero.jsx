@@ -7,7 +7,7 @@ function Hero({profile}) {
             <p>{profile.tagline}</p>
             <div className="hero-buttons">
                 <a href="#projects" className="btn">View My Work</a>
-                <a href="#contacts" className="btn btn-outline">Contact Me</a>
+                <a href="#contact" className="btn btn-outline">Contact Me</a>
             </div>
         </section>    
         );

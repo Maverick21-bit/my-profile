@@ -16,7 +16,7 @@ function handleSubmit(e) {
 }
 
 return (
-    <section id="contact" clasName="section">
+    <section id="contact" className="section">
         <h2 className="section-title">Contact Me</h2>
         <form className="contact-form" onSubmit={handleSubmit}>
             <input
@@ -34,7 +34,7 @@ return (
               onChange={handleChange}
               required
               />
-              <buttom type="submit" className="btn">Send Message</buttom>
+              <button type="submit" className="btn">Send Message</button>
         
         </form>
     

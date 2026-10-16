@@ -2,7 +2,7 @@ function Projects({projects}) {
     return(
         <section id="projects" className="section">
             <h2 className="section-title">Projects</h2>
-            <div clkassName="prpojects-grid">
+            <div className="projects-grid">
                 {projects.map((project) => (
                     <article key={project.title} className="card">
                         <h3>{project.title}</h3>
